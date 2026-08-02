@@ -24,7 +24,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 px-6 max-w-6xl mx-auto">
+    <section className="h-screen w-screen min-w-[100vw] flex-shrink-0 flex items-center justify-center relative overflow-hidden px-6">
       {/* Section Header */}
       <div className="mb-12 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
